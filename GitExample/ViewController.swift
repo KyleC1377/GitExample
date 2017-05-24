@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         sayHello()
+        
+        
     }
     
     func sayHello() {
@@ -25,6 +27,9 @@ class ViewController: UIViewController {
         print("This is test Branch!!")
     }
 
+    func checkOut() {
+        print("This is checkout!!")
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
